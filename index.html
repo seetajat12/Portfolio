@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="seenu.jpeg" class="header-image" >
+        <h1>Seeta Jat</h1>
+        <h2>Web Developer</h2>
+    </header>
+
+    <nav>
+        <button onclick="scrollToSection('about-me')">About Me</button>
+        <button onclick="scrollToSection('education')">Education</button>
+        <button onclick="scrollToSection('technical-skills')">Technical Skills</button>
+        <button onclick="scrollToSection('soft-skills')">Soft Skills</button>
+        <button onclick="scrollToSection('contact')">Contact</button>
+    </nav>
+
+    <main>
+        <section id="about-me">
+            <h2>About Me</h2>
+            <p> I am passionate about coding and learning new technologies.</p>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+            <div class="card">
+                <h3>BCA Degree</h3>
+                <p>Pursuing from IGNOU Jaipur</p>
+            </div>
+            <div class="card">
+                <h3>Computer Cording</h3>
+                <p>Pursuing a computer coding course from Navgurukul</p>
+            </div>
+        </section>
+
+        <section id="technical-skills">
+            <h2>Technical Skills</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>Node.js</li>
+            </ul>
+        </section>
+
+        <section id="soft-skills">
+            <h2>Soft Skills</h2>
+            <ul>
+                <li>Effective Communication</li>
+                <li>Teamwork</li>
+                <li>Problem-Solving</li>
+                <li>Time Management</li>
+                <li>Adaptability</li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Email: jseeta05@gamil.com</p>
+            <p>Phone: 8690780212</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Seeta Jat</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
